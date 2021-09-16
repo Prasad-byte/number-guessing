@@ -42,9 +42,7 @@ while count < math.log(upper - lower + 1, 2):
     elif x < guess:
 
         print("You Guessed too high!")
- 
-# If Guessing is more than required guesses,
-# shows this output.
+
 
 if count >= math.log(upper - lower + 1, 2):
 
@@ -52,4 +50,3 @@ if count >= math.log(upper - lower + 1, 2):
 
     print("\tBetter Luck Next time!")
  
-# Better to use This source Code on pycharm!
